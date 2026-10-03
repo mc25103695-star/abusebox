@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineMenu, AiFillGithub } from 'react-icons/ai';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../services/auth/authProvider';
 
@@ -29,6 +29,14 @@ const Navbar = () => {
         <nav className='hidden md:flex items-center gap-2'>
           <button className={itemClass} onClick={() => go('/')}>Home</button>
           <button className={itemClass} onClick={() => go('/quick-check')}>Quick Check</button>
+          <a
+            href='https://github.com/mc25103695-star/abusebox'
+            target='_blank'
+            rel='noreferrer'
+            className='flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium text-slate-200 hover:text-white hover:bg-white/10 transition-colors'
+          >
+            <AiFillGithub className='text-lg' /> GitHub
+          </a>
           {!token ? (
             <button
               className='px-4 py-2 rounded-lg text-sm font-semibold bg-gradient-to-r from-cyan-500 to-emerald-500 text-slate-950 hover:opacity-90 transition-opacity'
@@ -56,6 +64,14 @@ const Navbar = () => {
           <div className='flex flex-col gap-2'>
             <button className={itemClass} onClick={() => go('/')}>Home</button>
             <button className={itemClass} onClick={() => go('/quick-check')}>Quick Check</button>
+            <a
+              href='https://github.com/mc25103695-star/abusebox'
+              target='_blank'
+              rel='noreferrer'
+              className='flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium text-slate-200 hover:text-white hover:bg-white/10 transition-colors'
+            >
+              <AiFillGithub className='text-lg' /> GitHub
+            </a>
             {!token ? (
               <button className='px-4 py-2 rounded-lg text-sm font-semibold bg-cyan-400 text-slate-950' onClick={() => go('/login')}>
                 Sign in

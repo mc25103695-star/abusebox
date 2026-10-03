@@ -2,7 +2,7 @@
 name = "backend"
 version = "1.0.0"
 description = "AbuseBox FastAPI backend"
-authors = ["bekkaze <bekkaze7@gmail.com>"]
+authors = ["Omkar Kharat <mc25103695@git-india.edu.in>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

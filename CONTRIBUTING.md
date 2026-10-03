@@ -66,7 +66,7 @@ yarn dev
 
 ## Reporting Issues
 
-- Use [GitHub Issues](https://github.com/bekkaze/abusebox/issues) to report bugs or request features
+- Use [GitHub Issues](https://github.com/mc25103695-star/abusebox/issues) to report bugs or request features
 - Include steps to reproduce, expected behavior, and actual behavior for bug reports
 - Check existing issues before opening a new one
 

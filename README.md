@@ -9,8 +9,12 @@
 Check blacklists, query AbuseIPDB, inspect DNS/SSL/DMARC records, scan subnets, and verify server uptime — all from one dashboard.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![GitHub release](https://img.shields.io/github/v/release/bekkaze/abusebox)](https://github.com/bekkaze/abusebox/releases)
-[![GitHub stars](https://img.shields.io/github/stars/bekkaze/abusebox?style=social)](https://github.com/bekkaze/abusebox/stargazers)
+[![GitHub release](https://img.shields.io/github/v/release/mc25103695-star/abusebox)](https://github.com/mc25103695-star/abusebox/releases)
+[![GitHub stars](https://img.shields.io/github/stars/mc25103695-star/abusebox?style=social)](https://github.com/mc25103695-star/abusebox/stargazers)
+
+<p>
+  <b>Developed & Maintained by <a href="https://github.com/mc25103695-star">Omkar Kharat</a></b>
+</p>
 
 </div>
 
@@ -94,7 +98,7 @@ No vendor lock-in. No paid tiers. Self-host it and own your data.
 ### Docker (recommended)
 
 ```bash
-git clone https://github.com/bekkaze/abusebox
+git clone https://github.com/mc25103695-star/abusebox.git
 cd abusebox
 cp backend/.env.example .env    # configure your settings
 docker compose up --build
@@ -272,6 +276,14 @@ See [CHANGELOG.md](CHANGELOG.md) for full details.
 
 ---
 
+## 👨‍💻 Author & Maintainer
+
+**Omkar Kharat**
+- **GitHub:** [@mc25103695-star](https://github.com/mc25103695-star)
+- **Repository:** [https://github.com/mc25103695-star/abusebox](https://github.com/mc25103695-star/abusebox)
+
+---
+
 ## Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
@@ -284,8 +296,8 @@ MIT — see [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-**If AbuseBox helps you, consider giving it a star!**
+**If AbuseBox helps you, consider giving it a star! ⭐**
 
-[![GitHub stars](https://img.shields.io/github/stars/bekkaze/abusebox?style=social)](https://github.com/bekkaze/abusebox/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/mc25103695-star/abusebox?style=social)](https://github.com/mc25103695-star/abusebox/stargazers)
 
 </div>

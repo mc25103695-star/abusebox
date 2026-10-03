@@ -74,6 +74,24 @@ export default function Sidebar({ open, onClose }) {
             <span className='text-xl'><HiOutlineLogout /></span>
             Logout
           </div>
+
+          <div className='mt-3 p-3 rounded-xl bg-slate-800/60 border border-slate-700/50 text-xs text-slate-400'>
+            <div className='flex items-center justify-between'>
+              <span className='text-[11px] font-semibold text-slate-300'>AbuseBox</span>
+              <span className='px-1.5 py-0.5 rounded text-[10px] bg-cyan-500/10 text-cyan-400 font-mono'>v1.1.2</span>
+            </div>
+            <p className='text-[11px] text-slate-400 mt-1'>
+              Created by{' '}
+              <a
+                href='https://github.com/mc25103695-star'
+                target='_blank'
+                rel='noreferrer'
+                className='text-cyan-400 hover:text-cyan-300 font-medium inline-flex items-center gap-0.5'
+              >
+                Omkar Kharat ↗
+              </a>
+            </p>
+          </div>
         </div>
       </aside>
     </>
